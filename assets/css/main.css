@@ -29,4 +29,7 @@ body {
 .navbar .container {
   display: flex;
   place-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
