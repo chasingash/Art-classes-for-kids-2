@@ -7,12 +7,19 @@ body {
     font-weight: 300;
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .navbar {
     background: white;
+    padding: 1em;
+
+    .logo {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.5em;
+
+        span {
+            color: orange;
+        }
+    }
 }
 
