@@ -91,14 +91,24 @@ section {
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  letter-spacing: 0.1em;
-}
-.about-section h1 {
+  letter-spacing: 0.2em;
   font-size: 2em;
   line-height: 1.4em;
-  margin-top: 0.2em;
+  text-align: center;
+  margin: 0;
+}
+.about-section p {
+  text-align: center;
+  margin: 1em 0 3em 0;
 }
 
-.about-section {
-  text-align: center;
+.about-section img {
+  display: none;
+}
+
+.class-information h2, .class-information h3 {
+  font-weight: normal;
+  margin: 0;
+  color: black;
+  font-family: Poppins, sans-serif;
 }/*# sourceMappingURL=main.css.map */

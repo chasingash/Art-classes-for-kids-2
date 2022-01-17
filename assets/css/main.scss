@@ -102,21 +102,36 @@ section {
 }
 
 .about-section {
-    
+
     h1 {
         text-transform: uppercase;
         font-weight: bold;
         color: rgb(0, 0, 0);
-        letter-spacing: .1em;
-    }
-
-    h1 {
+        letter-spacing: .2em;
         font-size: 2em;
         line-height: 1.4em;
-        margin-top: .2em;
+        text-align: center;
+        margin: 0;
+    }
+
+    p {
+        text-align: center;
+        margin: 1em 0 3em 0;
     }
 }
 
-.about-section {
-    text-align: center;
+.about-section img {
+    display: none;
 }
+
+.class-information {
+
+    
+    h2, h3 {
+        font-weight: normal;
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-family: Poppins, sans-serif;
+    }
+}
+
