@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 1em;
 
     .logo {
@@ -37,5 +37,37 @@ body {
 
     .mobile-menu {
         cursor: pointer;
+    }
+}
+
+a {
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2.5em;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.left-column {
+
+    .sub-heading {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: gray;
+        letter-spacing: .2em;
+    }
+
+    h1 {
+        font-size: 2.7em;
     }
 }
