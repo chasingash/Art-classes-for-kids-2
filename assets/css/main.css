@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,700;0,800;1,200;1,300;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap");
 :root {
-  --primary-color: rgb(212, 54, 173);
+  --primary-color: #d436ad;
 }
 
 body {
@@ -17,8 +17,9 @@ body {
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
+  letter-spacing: 0.1em;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .navbar .logo span {
   color: var(--primary-color);
@@ -100,15 +101,48 @@ section {
 .about-section p {
   text-align: center;
   margin: 1em 0 3em 0;
+  font-family: Poppins, sans-serif;
 }
 
 .about-section img {
   display: none;
 }
 
-.class-information h2, .class-information h3 {
+.class-information {
+  background: var(--primary-color);
+  color: whitesmoke;
+}
+.class-information h3 {
   font-weight: normal;
   margin: 0;
-  color: black;
   font-family: Poppins, sans-serif;
+}
+.class-information h2 {
+  font-weight: bold !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 2em;
+}
+.class-information .container {
+  line-height: 1.4em;
+  text-align: center;
+  margin: 0;
+}
+
+.contact-left h2 {
+  font-size: 2em;
+}
+.contact-left label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+.contact-left input, .contact-left textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  border: 3px solid #d436ad;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */
