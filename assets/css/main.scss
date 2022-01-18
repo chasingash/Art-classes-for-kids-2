@@ -24,6 +24,8 @@ body {
 
         span {
             color: var(--primary-color);
+            font-size: 1.5em;
+            font-weight: bolder;
         }
     }
 
@@ -58,6 +60,7 @@ section {
 .hero-image {
     text-align: center;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -76,7 +79,7 @@ section {
         font-weight: bold;
         color: rgb(0, 0, 0);
         letter-spacing: .2em;
-    
+
     }
 
     h1 {
@@ -126,7 +129,7 @@ section {
     }
 
 
-    
+
 }
 
 .about-section img {
@@ -152,12 +155,12 @@ section {
             border: 5px solid whitesmoke;
             border-radius: 50%;
             margin-top: -4.5em;
-            
+
         }
     }
 
-    
-     h3 {
+
+    h3 {
         font-weight: normal;
         margin: 0;
         font-family: Poppins, sans-serif;
@@ -178,47 +181,45 @@ section {
     }
 }
 
-.contact-left {
 
-    h2 {
-        font-size: 2em;
-    }
 
-    label {
-        display: block;
-        font-size: 1.2em;
-        margin-bottom: .5em;
-    }
-
-    input, textarea {
-        width: 100%;
-        padding: .8em;
-        margin-bottom: 1em;
-        border-radius: .5em;
-        border: 3px solid #d436ad;
-        box-sizing: border-box;
-    }
-
-    input[type="submit"] {
-        background-color: var(--primary-color);
-        color: whitesmoke;
-        font-weight: bold;
-        font-size: 1.4em;
-        border: none;
-        margin-bottom: 3em;
-        display: inline-block;
-        padding: .8em 2em;
-        width: unset;
-        cursor: pointer;
-
-    }
+h2 {
+    font-size: 2em;
 }
 
-.contact-right {
-    iframe {
-        width: 100%;
-        height: 300px;
-    }
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+    border: 3px solid #d436ad;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.4em;
+    border: none;
+    margin-bottom: 3em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
 }
 
 nav.menu-btn {
@@ -234,25 +235,26 @@ nav {
     background: #d436ad;
     height: 100vh;
     padding: 1em;
-}
 
-ul.center.nav {
-    margin-top: 5em;
-}
+    ul.center.nav {
+        margin-top: 5em;
+    }
 
-li {
-    a {
-        color: whitesmoke;
-        text-decoration: none;
-        display: block;
-        padding: .5em;
-        font-size: 1.3em;
-        text-align: right;
+    li {
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+            display: block;
+            padding: .5em;
+            font-size: 1.3em;
+            text-align: right;
 
-        &:hover {
-            font-weight: bold;
+            &:hover {
+                font-weight: bold;
+            }
         }
     }
+
 }
 
 .mobile-menu-exit {
@@ -260,4 +262,3 @@ li {
     margin: .5em;
     cursor: pointer;
 }
-
