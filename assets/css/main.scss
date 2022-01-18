@@ -58,7 +58,6 @@ section {
 .hero-image {
     text-align: center;
 }
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -69,15 +68,19 @@ section {
 
 .left-column {
 
+    margin-top: 6em;
+
     .sub-heading {
         text-transform: uppercase;
+        font-size: 1.5em;
         font-weight: bold;
         color: rgb(0, 0, 0);
         letter-spacing: .2em;
+    
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 5em;
         line-height: 1.4em;
         margin-top: .2em;
     }
