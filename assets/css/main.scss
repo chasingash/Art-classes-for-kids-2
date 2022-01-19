@@ -60,6 +60,10 @@ section {
 
 .hero-image {
     text-align: center;
+
+    p {
+        font-family: Poppins, sans-serif;
+    }
 }
 
 #hero-image {
@@ -114,6 +118,7 @@ section {
 
     h1 {
         text-transform: uppercase;
+        font-family: Poppins, sans-serif;
         font-weight: bold;
         color: rgb(0, 0, 0);
         letter-spacing: .2em;
@@ -343,12 +348,13 @@ nav {
     .hero-cta {
         display: flex;
     }
+
     .primary-cta {
         margin: 1em 3em 1em 4em;
     }
 
     .gallery-cta {
-        font-size: 1.2em;  
+        font-size: 1.2em;
     }
 
     .about-section {
@@ -365,6 +371,12 @@ nav {
         border-radius: 70% 10% 10% 20%;
     }
 
+    .class-information ul {
+        display: flex;
+
+        li {
+            margin: 5em 1em;
+        }
+    }
+
 }
-
-

@@ -55,6 +55,9 @@ section {
 .hero-image {
   text-align: center;
 }
+.hero-image p {
+  font-family: Poppins, sans-serif;
+}
 
 #hero-image {
   height: 600px;
@@ -98,6 +101,7 @@ section {
 
 .about-section h1 {
   text-transform: uppercase;
+  font-family: Poppins, sans-serif;
   font-weight: bold;
   color: black;
   letter-spacing: 0.2em;
@@ -315,5 +319,12 @@ nav li a:hover {
     bottom: -4em;
     border: 2px solid whitesmoke;
     border-radius: 70% 10% 10% 20%;
+  }
+
+  .class-information ul {
+    display: flex;
+  }
+  .class-information ul li {
+    margin: 5em 1em;
   }
 }/*# sourceMappingURL=main.css.map */
