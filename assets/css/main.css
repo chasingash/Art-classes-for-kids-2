@@ -12,14 +12,15 @@ body {
 
 .navbar {
   background: white;
-  padding: 1em;
+  padding: 0.5em;
 }
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 0.1em;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
 .navbar .logo span {
   color: var(--primary-color);
@@ -244,13 +245,15 @@ nav li a:hover {
     height: auto;
     font-weight: 100%;
     padding: 0;
+    margin-right: 25px;
+    line-height: 50px;
   }
   .navbar nav ul {
     display: flex;
   }
   .navbar nav a {
     color: black;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 0.1em 1em;
   }
 }/*# sourceMappingURL=main.css.map */
