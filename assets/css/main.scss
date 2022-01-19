@@ -348,8 +348,23 @@ nav {
     }
 
     .gallery-cta {
-        font-size: 1.2em;
-        
+        font-size: 1.2em;  
+    }
+
+    .about-section {
+        position: relative;
+    }
+
+    .about-section img {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 350px;
+        bottom: -4em;
+        border: 2px solid whitesmoke;
+        border-radius: 70% 10% 10% 20%;
     }
 
 }
+
+
