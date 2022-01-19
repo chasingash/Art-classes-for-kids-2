@@ -124,13 +124,16 @@ section {
   background: var(--primary-color);
   color: whitesmoke;
 }
+.class-information img {
+  display: none;
+}
 .class-information li {
   background: rgba(114, 28, 92, 0.5);
   text-align: center;
   padding: 2em 1em;
   width: 90%;
   margin: 0 auto 5em auto;
-  border-radius: 1.5em;
+  border-radius: 50% 0 30% 0;
   border: 2px solid whitesmoke;
 }
 .class-information li img {
@@ -318,7 +321,7 @@ nav li a:hover {
     width: 350px;
     bottom: -4em;
     border: 2px solid whitesmoke;
-    border-radius: 70% 10% 10% 20%;
+    border-radius: 50% 0% 30% 20%;
   }
 
   .class-information ul {
@@ -326,5 +329,34 @@ nav li a:hover {
   }
   .class-information ul li {
     margin: 5em 1em;
+  }
+
+  .contact-section {
+    position: relative;
+  }
+  .contact-section .container {
+    display: flex;
+  }
+
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+  }
+  .contact-right iframe {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .class-information img {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 350px;
+    bottom: -70em;
+    border: 2px solid whitesmoke;
+    border-radius: 0% 50% 20% 30%;
   }
 }/*# sourceMappingURL=main.css.map */
