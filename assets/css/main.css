@@ -256,4 +256,28 @@ nav li a:hover {
     font-size: 1.2em;
     padding: 0.1em 1em;
   }
+  .navbar nav li.current a {
+    font-weight: bold;
+  }
+  .navbar nav li.contact a {
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    font-weight: bold;
+    border-radius: 0.4em;
+    margin-top: -0.2em;
+  }
+  .navbar nav li.contact a:hover {
+    background: var(--primary-color);
+    color: whitesmoke;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+
+  section {
+    padding: 5em 4em;
+  }
 }/*# sourceMappingURL=main.css.map */

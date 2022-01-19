@@ -141,6 +141,7 @@ section {
     background: var(--primary-color);
     color: whitesmoke;
 
+
     li {
         background: rgba(114, 28, 92, .5);
         text-align: center;
@@ -264,6 +265,8 @@ nav {
     cursor: pointer;
 }
 
+
+
 @media only screen and (min-width: 768px) {
     .mobile-menu, .mobile-menu-exit {
         display: none;
@@ -295,6 +298,36 @@ nav {
             font-size: 1.2em;
             padding: .1em 1em;
         }
+        
+
+        li.current a {
+            font-weight: bold;
+        }
+
+        li.contact a {
+            color: var(--primary-color);
+            border: 3px solid var(--primary-color);
+            font-weight: bold;
+            border-radius: .4em;
+            margin-top: -.2em;
+
+            &:hover {
+                background: var(--primary-color);
+                color: whitesmoke;
+            }
+        }
     }
+}
+
+@media only screen and (min-width: 1080px) {
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 5em 4em;
+    }
+
 }
     
